@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start -p 4000 -H 0.0.0.0",
+    "start": "next start -p $PORT -H 0.0.0.0",
     "bot": "tsx scripts/bot.ts",
     "lint": "next lint",
     "both": "concurrently \"npm run dev\" \"npm run bot\""
